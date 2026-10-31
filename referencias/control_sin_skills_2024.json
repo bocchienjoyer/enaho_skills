@@ -1,0 +1,294 @@
+{
+  "estado": "TRES_COMPARACIONES_DESCRIPTIVAS_COMPLETADAS",
+  "carpeta_control": "enaho_sin_skills",
+  "condicion": "Sin los tres manifiestos SKILL.md; se conservan scripts, referencias, datos, documentación y resultados existentes",
+  "manifiestos_excluidos": [
+    ".agents/skills/limpiando-enaho/SKILL.md",
+    ".agents/skills/graficando-enaho/SKILL.md",
+    ".agents/skills/mapeando-enaho/SKILL.md"
+  ],
+  "nota": "Comprobar en un chat nuevo que las tres skills no figuran en su lista inicial. Las skills del sistema no se desactivan.",
+  "limite_comparacion": "Instantánea posterior a las tres demostraciones con skills. Conserva resultados y documentación con cifras; la comparación será descriptiva, no una prueba desde datos sin procesar ni una medida causal de mejora.",
+  "archivos_identicos_al_preparar": [
+    {
+      "archivo": ".agents/skills/graficando-enaho/agents/openai.yaml",
+      "sha256": "a155857fcb0e7a2c7b20e2735ce3eb7cafdf9bb0de0a3c96771ef92df0d1230f",
+      "bytes": 119
+    },
+    {
+      "archivo": ".agents/skills/graficando-enaho/scripts/graficar.py",
+      "sha256": "98d8de3cd593e2955b550cea8fa6ae2ca777c7df47114c3cea622feb03c3ccce",
+      "bytes": 4225
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/agents/openai.yaml",
+      "sha256": "92fcde27c1dc18a3576a27e2df77691ae2c6e450e6f8c204556009232c495e98",
+      "bytes": 119
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/references/esquema_2024.md",
+      "sha256": "121bf5aab2960b789639ab6d1fe52afb9fa74d46250e99b93d565660fab8262a",
+      "bytes": 4543
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/scripts/limpiar.py",
+      "sha256": "96aee745e1fda63b491f21a5bf8c8da3ebfef0c73f773fc72568b15f586303e5",
+      "bytes": 12233
+    },
+    {
+      "archivo": ".agents/skills/mapeando-enaho/agents/openai.yaml",
+      "sha256": "8a7e1ffdcaaa1a70f98ba9747d0b965c32179d5c47391481fd84b6f40f584071",
+      "bytes": 119
+    },
+    {
+      "archivo": ".agents/skills/mapeando-enaho/scripts/mapear.py",
+      "sha256": "350f4d763c9c889b6b7ddc7dfda06dd519b08c0286820668ee704831f12805d0",
+      "bytes": 10207
+    },
+    {
+      "archivo": "datos/966-Modulo02.zip",
+      "sha256": "f2a1627a09e3c849fe281de74512cc5e5c44ba39a8e65dd81251a9146360ce88",
+      "bytes": 5793097
+    },
+    {
+      "archivo": "datos/966-Modulo34.zip",
+      "sha256": "5ee98dad87810d42d7e252401d8366feac2fbce151c7af986d9644a40952567c",
+      "bytes": 15935617
+    },
+    {
+      "archivo": "datos/peru_departamental_simple.geojson",
+      "sha256": "3d34d5450a1b1f059eebdf7386e5b5d071a5063bf3679fcbbbc5314493791290",
+      "bytes": 139681
+    },
+    {
+      "archivo": "salidas/personas_2024.parquet",
+      "sha256": "2e2542a648df3de17c48538f20897a4ab258730fc015b6af585873562ed8c757",
+      "bytes": 446251
+    },
+    {
+      "archivo": "salidas/validacion.txt",
+      "sha256": "bd8e6281c15863df005b2bb4f3ddb3a50d13963bd0cbb079904f581e05f6b379",
+      "bytes": 1245
+    },
+    {
+      "archivo": "salidas/validacion_2024.json",
+      "sha256": "2b29cfc51ac9c3cb0b38d92c305f064d36a9031c69195bf68e24450fc00bde79",
+      "bytes": 1891
+    },
+    {
+      "archivo": "figuras/pobreza_area_2024.csv",
+      "sha256": "95519a0f0b10079b1150628b257b2f99c9cc9278c7971d541bee5713629233ff",
+      "bytes": 205
+    },
+    {
+      "archivo": "figuras/pobreza_area_2024.json",
+      "sha256": "0c4132063cc4afb110cf02d09b0745878c478b3a0183ba9820d3c1d72c66bfc2",
+      "bytes": 288
+    },
+    {
+      "archivo": "figuras/pobreza_area_2024.png",
+      "sha256": "8e90576221afa59cf090c36de6cc0e49acc512a42579b12478c163443b137cab",
+      "bytes": 71120
+    },
+    {
+      "archivo": "figuras/pobreza_edad_2024.csv",
+      "sha256": "d6a4756eb18b445f0eb46cf281f1040aafa3909d16ed7d9456ce505ffa18dbb8",
+      "bytes": 447
+    },
+    {
+      "archivo": "figuras/pobreza_edad_2024.json",
+      "sha256": "62a31bb3aa533c7964c5f6ce4498a977630866b5c4635f7d1a3d8b177660ef34",
+      "bytes": 400
+    },
+    {
+      "archivo": "figuras/pobreza_edad_2024.png",
+      "sha256": "e2d8addef91607cca50116cfa24d60ed6259b5f775895b59eccc9c4736d242fe",
+      "bytes": 98755
+    },
+    {
+      "archivo": "figuras/pobreza_sexo_2024.csv",
+      "sha256": "200776f7c50a818d952c3cc46371f869e88dbe79fe82ef2dc9bf620675bcd657",
+      "bytes": 205
+    },
+    {
+      "archivo": "figuras/pobreza_sexo_2024.json",
+      "sha256": "d62737425a9b483a39c5327d258ee48dd292ed1c74bfd00f4e8de241d8fbfc75",
+      "bytes": 288
+    },
+    {
+      "archivo": "figuras/pobreza_sexo_2024.png",
+      "sha256": "0f15bdaec530dcca7ac032e741b765aaf16c74441612c5f448d22f490518f94e",
+      "bytes": 71594
+    },
+    {
+      "archivo": "mapas/pobreza_departamento.csv",
+      "sha256": "4ab8eeb9ea9d51c3107692bc1946eecee0ee32531494c40dafa01afc557b6ec7",
+      "bytes": 2586
+    },
+    {
+      "archivo": "mapas/pobreza_departamento.json",
+      "sha256": "989faa75216067d150e2844c5dafc7460a74aee8b91f0973745cee2731e63742",
+      "bytes": 563
+    },
+    {
+      "archivo": "mapas/pobreza_departamento.png",
+      "sha256": "3d41f11fc82b90698ac25dcb09db4d9257437a0516002185f4fbf3d652184866",
+      "bytes": 285867
+    },
+    {
+      "archivo": "mapas/verificacion_union_2024.json",
+      "sha256": "67a1b472a6460c34632e35b6771711f5d350f17cf6ca8396ff254272b0203f91",
+      "bytes": 1190
+    },
+    {
+      "archivo": "referencias/fuentes_2024.json",
+      "sha256": "ac93b8ac6d5b2361834adead6e2003ce120013de56552832187ab4395ceaea4f",
+      "bytes": 1837
+    },
+    {
+      "archivo": "referencias/pobreza_departamento_2024.csv",
+      "sha256": "59b66d00a14880fdbaf8c8925b37c39847c7ef16efc68f450ef5539c9dbaee8e",
+      "bytes": 459
+    },
+    {
+      "archivo": "scripts/enaho_comun.py",
+      "sha256": "3ebb8f89dd528354cc0bdce472d768399ceb72e71b3f0d83750068016003ab85",
+      "bytes": 4958
+    },
+    {
+      "archivo": "scripts/preparar_control.py",
+      "sha256": "41ec9f8b74d30fab7753fa530124f0ac45f8b2b7b91c22c2449536f3cdefe6ef",
+      "bytes": 3735
+    },
+    {
+      "archivo": "scripts/preparar_datos.py",
+      "sha256": "b7a34280787d64c19bd6d59f5bbc863984ee77d67391efedc1f9b60c22824adf",
+      "bytes": 4163
+    },
+    {
+      "archivo": "tests/test_limpieza.py",
+      "sha256": "b73a9e7e6719a71b42edcb536ae3e428fe1672fc3785400f3fc55dfb0d31a965",
+      "bytes": 5772
+    },
+    {
+      "archivo": "tests/test_visualizaciones.py",
+      "sha256": "11a37c461a17eb76061b6984440e944b18eb32b385dce8ab44b4774a9bf19e18",
+      "bytes": 6117
+    },
+    {
+      "archivo": ".gitignore",
+      "sha256": "ac3c8c95f8e1857fef3af5587ecd232b9b4302173367cc25eb14d857b3ce286d",
+      "bytes": 215
+    },
+    {
+      "archivo": ".python-version",
+      "sha256": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
+      "bytes": 5
+    },
+    {
+      "archivo": "pyproject.toml",
+      "sha256": "db9b203d123d28c5ee1d056363291c04c67b226b25e800e27c75b025092cf15e",
+      "bytes": 248
+    },
+    {
+      "archivo": "uv.lock",
+      "sha256": "c1da80453f624d8fba84bc0830eef92efa03ba564db9f6a5fa7f80c515ea696d",
+      "bytes": 183267
+    },
+    {
+      "archivo": "README.md",
+      "sha256": "4c17bfce389c9ec9ef972d28df6b37b887de2ac22e557b152285afa08b261a05",
+      "bytes": 8656
+    },
+    {
+      "archivo": "PASOS_CODEX.md",
+      "sha256": "7f747d815980dc99c42de2f5ccc2ee9a05e06247c40d7dd7a69b5310f09e20ec",
+      "bytes": 8825
+    },
+    {
+      "archivo": "evaluacion.md",
+      "sha256": "0e6dc8d2a1e493ed02b0de9ffe5f702b3e56494cd2eae5bd5655faa0471a8463",
+      "bytes": 11367
+    }
+  ],
+  "verificacion_work": {
+    "chat": "Comprueba skills de ENAHO",
+    "carpeta_confirmada_en_registro": "enaho_sin_skills",
+    "skills_reportadas_ausentes": [
+      "limpiando-enaho",
+      "graficando-enaho",
+      "mapeando-enaho"
+    ],
+    "manifiestos_en_copia": 0,
+    "archivos_snapshot_verificados": 40,
+    "archivos_snapshot_modificados": 0,
+    "analisis_sin_skills_ejecutados": 3,
+    "fuente_catalogo": "Respuesta del chat, sin lectura de documentos; carpeta comprobada en su registro"
+  },
+  "resultados_sin_skills": {
+    "cusco": {
+      "estado": "COMPROBADO_EN_REGISTRO",
+      "chat": "Consultar pobreza en Cusco 2024",
+      "carpeta": "enaho_sin_skills",
+      "pobreza_reportada_pct": 18.5,
+      "procedimiento": "Consulta web; cifra publicada",
+      "skills_utilizadas": [],
+      "scripts_locales_ejecutados": [],
+      "ponderacion_propia": false,
+      "fuente_enlazada": "https://www.mef.gob.pe/contenidos/presu_publ/ppr/gasto_social2024.pdf",
+      "archivos_snapshot_modificados": 0
+    },
+    "grafico_area": {
+      "estado": "COMPROBADO_EN_REGISTRO",
+      "chat": "Graficar pobreza urbana y rural",
+      "carpeta": "enaho_sin_skills",
+      "skills_utilizadas": [],
+      "scripts_locales_ejecutados": [
+        ".agents/skills/graficando-enaho/scripts/graficar.py"
+      ],
+      "lanzador": "Python de .venv",
+      "argumentos": [
+        "--anio",
+        "2024",
+        "--por",
+        "area"
+      ],
+      "peso": "facpob07",
+      "pobreza_urbana_pct": 24.735236636829047,
+      "pobreza_rural_pct": 39.44168114907362,
+      "brecha_pp": 14.70644451224457,
+      "png_regenerado": true,
+      "pixeles_identicos_con_skills": true,
+      "archivos_snapshot_con_contenido_distinto": 0,
+      "verificacion_adicional": "Suma ponderada independiente y comparación con CSV"
+    },
+    "mapa_departamento": {
+      "estado": "COMPROBADO_EN_REGISTRO",
+      "chat": "Mapea la pobreza por departamento",
+      "carpeta": "enaho_sin_skills",
+      "skills_utilizadas": [],
+      "scripts_locales_ejecutados": [
+        ".agents/skills/mapeando-enaho/scripts/mapear.py"
+      ],
+      "limpieza_ejecutada": false,
+      "lanzador": "Python de .venv",
+      "argumentos": [
+        "--anio",
+        "2024"
+      ],
+      "peso": "facpob07",
+      "residentes": 108664,
+      "territorios": 25,
+      "tasas_faltantes": 0,
+      "lima_callao_separados": true,
+      "pobreza_lima_pct": 26.88876927698789,
+      "pobreza_callao_pct": 33.768343569690856,
+      "pruebas_aprobadas_en_el_chat": 22,
+      "maxima_diferencia_recalculo_numpy_pp": 7.105427357601002e-15,
+      "csv_identico_con_skills": true,
+      "pixeles_identicos_con_skills": true,
+      "archivos_snapshot_con_contenido_distinto": 0,
+      "auditoria": "Solicitada en un segundo mensaje; en la condición con skills estaba incluida en el primero"
+    }
+  }
+}

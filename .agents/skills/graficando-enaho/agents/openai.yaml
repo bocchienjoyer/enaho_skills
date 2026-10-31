@@ -1,0 +1,3 @@
+interface:
+  display_name: "Graficar ENAHO"
+  short_description: "Grafica pobreza ponderada por área, sexo y edad"

@@ -1,0 +1,228 @@
+{
+  "estado": "ENCADENAMIENTO_COMPROBADO",
+  "carpeta": "enaho_sin_base",
+  "manifiestos": [
+    ".agents/skills/graficando-enaho/SKILL.md",
+    ".agents/skills/limpiando-enaho/SKILL.md",
+    ".agents/skills/mapeando-enaho/SKILL.md"
+  ],
+  "documentacion": "README neutro sobre entradas y entorno; no se copiaron los informes de evaluación ni resultados previos",
+  "referencia_de_entrada": "referencias/pobreza_departamento_2024.csv",
+  "base_original_sha256": "2e2542a648df3de17c48538f20897a4ab258730fc015b6af585873562ed8c757",
+  "archivos_iniciales": [
+    {
+      "archivo": ".agents/skills/graficando-enaho/agents/openai.yaml",
+      "sha256": "a155857fcb0e7a2c7b20e2735ce3eb7cafdf9bb0de0a3c96771ef92df0d1230f"
+    },
+    {
+      "archivo": ".agents/skills/graficando-enaho/scripts/graficar.py",
+      "sha256": "98d8de3cd593e2955b550cea8fa6ae2ca777c7df47114c3cea622feb03c3ccce"
+    },
+    {
+      "archivo": ".agents/skills/graficando-enaho/SKILL.md",
+      "sha256": "81518aca387e1e1d84b2758f9aac4f926ca457f11bfc9226cd9f0cd649ceb82e"
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/agents/openai.yaml",
+      "sha256": "92fcde27c1dc18a3576a27e2df77691ae2c6e450e6f8c204556009232c495e98"
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/references/esquema_2024.md",
+      "sha256": "121bf5aab2960b789639ab6d1fe52afb9fa74d46250e99b93d565660fab8262a"
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/scripts/limpiar.py",
+      "sha256": "96aee745e1fda63b491f21a5bf8c8da3ebfef0c73f773fc72568b15f586303e5"
+    },
+    {
+      "archivo": ".agents/skills/limpiando-enaho/SKILL.md",
+      "sha256": "e58c47bd6d6e9483e2811c2d795c11d3fc7751e68eb5451cb1fee621a4ad9c2e"
+    },
+    {
+      "archivo": ".agents/skills/mapeando-enaho/agents/openai.yaml",
+      "sha256": "8a7e1ffdcaaa1a70f98ba9747d0b965c32179d5c47391481fd84b6f40f584071"
+    },
+    {
+      "archivo": ".agents/skills/mapeando-enaho/scripts/mapear.py",
+      "sha256": "350f4d763c9c889b6b7ddc7dfda06dd519b08c0286820668ee704831f12805d0"
+    },
+    {
+      "archivo": ".agents/skills/mapeando-enaho/SKILL.md",
+      "sha256": "274ac8a5d76ad9cf020f33059a7f6ddc916c0671fa8be6f7e588acfcaa59793b"
+    },
+    {
+      "archivo": ".gitignore",
+      "sha256": "ac3c8c95f8e1857fef3af5587ecd232b9b4302173367cc25eb14d857b3ce286d"
+    },
+    {
+      "archivo": ".python-version",
+      "sha256": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398"
+    },
+    {
+      "archivo": "datos/966-Modulo02.zip",
+      "sha256": "f2a1627a09e3c849fe281de74512cc5e5c44ba39a8e65dd81251a9146360ce88"
+    },
+    {
+      "archivo": "datos/966-Modulo34.zip",
+      "sha256": "5ee98dad87810d42d7e252401d8366feac2fbce151c7af986d9644a40952567c"
+    },
+    {
+      "archivo": "datos/peru_departamental_simple.geojson",
+      "sha256": "3d34d5450a1b1f059eebdf7386e5b5d071a5063bf3679fcbbbc5314493791290"
+    },
+    {
+      "archivo": "pyproject.toml",
+      "sha256": "db9b203d123d28c5ee1d056363291c04c67b226b25e800e27c75b025092cf15e"
+    },
+    {
+      "archivo": "README.md",
+      "sha256": "bd92966ec6ce6eb4a456e30d4fe001d294561f8354ead9272f159b4787de5cc6"
+    },
+    {
+      "archivo": "referencias/pobreza_departamento_2024.csv",
+      "sha256": "59b66d00a14880fdbaf8c8925b37c39847c7ef16efc68f450ef5539c9dbaee8e"
+    },
+    {
+      "archivo": "scripts/enaho_comun.py",
+      "sha256": "3ebb8f89dd528354cc0bdce472d768399ceb72e71b3f0d83750068016003ab85"
+    },
+    {
+      "archivo": "scripts/preparar_datos.py",
+      "sha256": "b7a34280787d64c19bd6d59f5bbc863984ee77d67391efedc1f9b60c22824adf"
+    },
+    {
+      "archivo": "tests/test_limpieza.py",
+      "sha256": "b73a9e7e6719a71b42edcb536ae3e428fe1672fc3785400f3fc55dfb0d31a965"
+    },
+    {
+      "archivo": "tests/test_visualizaciones.py",
+      "sha256": "11a37c461a17eb76061b6984440e944b18eb32b385dce8ab44b4774a9bf19e18"
+    },
+    {
+      "archivo": "uv.lock",
+      "sha256": "c1da80453f624d8fba84bc0830eef92efa03ba564db9f6a5fa7f80c515ea696d"
+    }
+  ],
+  "ejecucion_del_pedido": "COMPLETADA",
+  "entorno_preparado": true,
+  "prueba_precondicion": {
+    "comando": "Python de .venv .agents/skills/mapeando-enaho/scripts/mapear.py --anio 2024",
+    "salida_esperada": 1,
+    "salida_observada": 1,
+    "mensaje": "ERROR: Falta personas_2024.parquet; usar primero la skill limpiando-enaho",
+    "carpetas_resultados_siguen_vacias": true,
+    "alcance": "Control previo del rechazo del script sin base; la ejecución posterior del modelo está registrada en ejecucion."
+  },
+  "verificado_utc": "2026-10-31T19:49:29.313170+00:00",
+  "carpetas_vacias_al_preparar": [
+    "salidas",
+    "figuras",
+    "mapas"
+  ],
+  "ejecucion": {
+    "interfaz": "Codex CLI",
+    "version": "0.166.0-alpha.5.1",
+    "modelo_solicitado": "gpt-6.1-sol",
+    "razonamiento_solicitado": "xhigh",
+    "modo_efimero": true,
+    "revision_automatica": true,
+    "pedido": "Haz un mapa de la pobreza por departamento del Perú con la ENAHO 2024.\nTrabaja con los archivos de esta carpeta; conserva el código y las instrucciones existentes y no tomes bases ni resultados de carpetas vecinas. Realiza la prueba tú mismo sin delegar.\nLos dos ZIP son copias exactas de las descargas públicas del INEI. Procesa los microdatos localmente: no muestres ni envíes filas individuales de personas u hogares, ni vuelques el contenido de archivos de datos a las herramientas. Las salidas de herramientas y la respuesta deben limitarse a instrucciones y código del proyecto, comprobaciones estructurales, controles, tasas agregadas y el mapa.\nAl terminar, indica si había base limpia al iniciar, qué skills utilizaste realmente, qué scripts ejecutaste y en qué orden, qué factor de expansión aplicaste y cómo verificaste la unión de los 25 territorios y la separación de Lima y Callao.",
+    "exit_code": 0,
+    "segundos": 321.26,
+    "skills_leidas": {
+      "mapeando-enaho": {
+        "linea_registro": 5,
+        "salida": 0
+      },
+      "limpiando-enaho": {
+        "linea_registro": 5,
+        "salida": 0
+      }
+    },
+    "base_inicial_ausente": {
+      "linea_registro": 11,
+      "resultado": true
+    },
+    "secuencia": [
+      {
+        "accion": "limpiar.py --anio 2024",
+        "linea_registro": 29,
+        "exit_code": 0
+      },
+      {
+        "accion": "Leer validacion.txt y validacion_2024.json",
+        "linea_registro": 31,
+        "estado": "OK",
+        "exit_code": 0
+      },
+      {
+        "accion": "mapear.py --anio 2024",
+        "linea_registro": 33,
+        "exit_code": 0
+      }
+    ],
+    "suite": {
+      "pruebas_aprobadas": 22,
+      "linea_registro": 27,
+      "exit_code": 0
+    },
+    "incidencia_entorno": "uv no pudo utilizar el intérprete inicial; el modelo restauró las dependencias fijadas mediante uv sync --frozen y utilizó Python 3.13.9. El original usa 3.13.5.",
+    "registro_local": ".evaluacion-runs/sin_base/eventos.jsonl",
+    "registro_sha256": "e5caee4d051bb859994a5dfcbaebc90304390ed94640dc986722f2be95e03a72",
+    "respuesta_local": ".evaluacion-runs/sin_base/respuesta.md",
+    "respuesta_sha256": "94e6e8309b4a5f4961fe0805cde78b4430f58c937bc5965ccfec8011567a31e8",
+    "auditoria_adicional": {
+      "script": "scripts/verificar_mapa_2024.py",
+      "sha256": "4d8e975687de2985c23aa3dcea16470bd90af0d9bad0be11ec1e05cd0ea7596a",
+      "exit_code": 0,
+      "informe": "salidas/comprobacion_mapa_2024.json",
+      "informe_sha256": "e247cffdb4e918a36b7801230fc2518d9ab002ce013f4ecefe4fcf4e988f4505",
+      "nota": "Archivos nuevos de la copia de prueba; no modificaron los programas de las skills."
+    }
+  },
+  "comprobacion_independiente": {
+    "estado": "OK",
+    "archivos_iniciales_verificados": 23,
+    "archivos_iniciales_modificados": [],
+    "base_original_sin_cambios": true,
+    "base_generada_identica_a_original": true,
+    "base_sha256": "2e2542a648df3de17c48538f20897a4ab258730fc015b6af585873562ed8c757",
+    "residentes": 108664,
+    "validacion": "OK",
+    "peso": "facpob07",
+    "union": {
+      "codigos": 25,
+      "coincidencias": 25,
+      "sin_dato": 0,
+      "geometrias_validas": true,
+      "max_diferencia_recalculo_pp": 0.0,
+      "lima_callao_geometrias_distintas": true
+    },
+    "lima_callao": {
+      "15": {
+        "nombre": "Lima",
+        "n_personas": 14823,
+        "pobreza_pct": 26.88876927698789
+      },
+      "07": {
+        "nombre": "Callao",
+        "n_personas": 3457,
+        "pobreza_pct": 33.768343569690856
+      }
+    },
+    "mapa": {
+      "pixeles_identicos_al_original": true,
+      "dimensiones_px": [
+        2400,
+        2000
+      ],
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "csv_identico_al_original": true
+    }
+  },
+  "alcance": "Prueba funcional de encadenamiento sin base previa; adicional a las seis comparaciones en Work. No mide una mejora frente a una condición sin skills.",
+  "condicion_inicial": "Tres skills y datos fuente presentes; sin base limpia, informes ni figuras previas"
+}

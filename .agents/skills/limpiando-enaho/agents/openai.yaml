@@ -1,0 +1,3 @@
+interface:
+  display_name: "Limpiar ENAHO"
+  short_description: "Limpia y valida la base de personas de ENAHO 2024"

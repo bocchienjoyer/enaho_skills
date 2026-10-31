@@ -1,0 +1,23 @@
+{
+  "origen": "Descargas públicas oficiales del INEI, sin autenticación",
+  "comprobaciones": [
+    {
+      "archivo": "datos/966-Modulo34.zip",
+      "url_publica": "https://proyectos.inei.gob.pe/iinei/srienaho/descarga/STATA/966-Modulo34.zip",
+      "bytes": 15935617,
+      "sha256_publico": "5ee98dad87810d42d7e252401d8366feac2fbce151c7af986d9644a40952567c",
+      "sha256_local": "5ee98dad87810d42d7e252401d8366feac2fbce151c7af986d9644a40952567c",
+      "coincide": true
+    },
+    {
+      "archivo": "datos/966-Modulo02.zip",
+      "url_publica": "https://proyectos.inei.gob.pe/iinei/srienaho/descarga/STATA/966-Modulo02.zip",
+      "bytes": 5793097,
+      "sha256_publico": "f2a1627a09e3c849fe281de74512cc5e5c44ba39a8e65dd81251a9146360ce88",
+      "sha256_local": "f2a1627a09e3c849fe281de74512cc5e5c44ba39a8e65dd81251a9146360ce88",
+      "coincide": true
+    }
+  ],
+  "fuente_condiciones": "https://proyectos.inei.gob.pe/microdatos/",
+  "contenido_emitido": "Solo nombres, tamaños y hashes; ninguna fila de personas u hogares"
+}

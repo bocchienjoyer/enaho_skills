@@ -1,0 +1,59 @@
+{
+  "estado": "OK",
+  "anio": 2024,
+  "codigos_esperados": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25"
+  ],
+  "codigos_unicos_base": 25,
+  "codigos_unicos_geografia": 25,
+  "codigos_unicos_csv": 25,
+  "union": "outer 1:1 por codigo de dos caracteres",
+  "coincidencias": 25,
+  "sin_correspondencia": 0,
+  "tasas_faltantes": 0,
+  "geometrias_validas": 25,
+  "residentes": 108664,
+  "peso": "facpob07",
+  "tasas_recalculadas_desde_personas": 25,
+  "maxima_diferencia_pp": 0.0,
+  "base_sha256": "2e2542a648df3de17c48538f20897a4ab258730fc015b6af585873562ed8c757",
+  "lima_callao": {
+    "07": {
+      "nombre": "Callao",
+      "n_personas": 3457,
+      "pobreza_pct": 33.768343569690856,
+      "poligonos_departamentales": 1
+    },
+    "15": {
+      "nombre": "Lima",
+      "n_personas": 14823,
+      "pobreza_pct": 26.88876927698789,
+      "poligonos_departamentales": 1
+    }
+  },
+  "lima_callao_geometrias_distintas": true
+}
