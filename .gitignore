@@ -1,0 +1,14 @@
+# Datos descargados y base de personas
+datos/
+salidas/*.parquet
+
+# Entorno y herramientas locales
+.venv/
+.tools/
+.uv-cache/
+.matplotlib/
+__pycache__/
+*.py[cod]
+
+# Registros de evaluaciones locales
+.evaluacion-runs/
