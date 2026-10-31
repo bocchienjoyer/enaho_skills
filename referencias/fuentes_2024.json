@@ -1,0 +1,47 @@
+{
+  "anio": 2024,
+  "verificado_utc": "2026-10-31T13:45:07.313567+00:00",
+  "nota": "Integridad y estructura de entradas; aún no se ha validado la limpieza.",
+  "fuentes": [
+    {
+      "archivo": "datos/966-Modulo34.zip",
+      "url": "https://proyectos.inei.gob.pe/iinei/srienaho/descarga/STATA/966-Modulo34.zip",
+      "bytes": 15935617,
+      "sha256": "5ee98dad87810d42d7e252401d8366feac2fbce151c7af986d9644a40952567c",
+      "verificacion": {
+        "archivo_stata": "sumaria-2024.dta",
+        "entradas_zip": 10
+      }
+    },
+    {
+      "archivo": "datos/966-Modulo02.zip",
+      "url": "https://proyectos.inei.gob.pe/iinei/srienaho/descarga/STATA/966-Modulo02.zip",
+      "bytes": 5793097,
+      "sha256": "f2a1627a09e3c849fe281de74512cc5e5c44ba39a8e65dd81251a9146360ce88",
+      "verificacion": {
+        "archivo_stata": "enaho01-2024-200.dta",
+        "entradas_zip": 8
+      }
+    },
+    {
+      "archivo": "datos/peru_departamental_simple.geojson",
+      "url": "https://raw.githubusercontent.com/d2cml-ai/Data-Science-Python/main/sessions/06-geoespacial/lab/Data/peru_departamental_simple.geojson",
+      "bytes": 139681,
+      "sha256": "3d34d5450a1b1f059eebdf7386e5b5d071a5063bf3679fcbbbc5314493791290",
+      "verificacion": {
+        "departamentos": 25,
+        "campo_union": "FIRST_IDDP"
+      }
+    },
+    {
+      "archivo": "referencias/pobreza_departamento_2024.csv",
+      "url": "https://raw.githubusercontent.com/d2cml-ai/Data-Science-Python/main/sessions/16-skills-enaho/referencias/pobreza_departamento_2024.csv",
+      "bytes": 459,
+      "sha256": "59b66d00a14880fdbaf8c8925b37c39847c7ef16efc68f450ef5539c9dbaee8e",
+      "verificacion": {
+        "departamentos": 25,
+        "origen": "Referencia de la sesión, no cálculo propio"
+      }
+    }
+  ]
+}
